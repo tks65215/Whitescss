@@ -20,8 +20,6 @@
 .head {
     border-radius: 0px;
     text-align: center;
-    margin-left: 230px;
-    margin-right: 230px;
     text-shadow: 2px 1px 6px rgba(0, 0, 0, 1);
     background-repeat:round;
     color: white;
@@ -32,8 +30,15 @@
     height: auto;
     padding: auto;
 }
+footer {
+    text-align: left;
+}
 .center-text {
     margin-top: 19px;
+    text-align: center;
+}
+.text1 {
+    font-family: CODE;
     text-align: center;
 }
 p {
@@ -158,6 +163,12 @@ a {
     background-color: dodgerblue;
     transition: 0.7s;
     border-radius: 5px;
+}
+
+#vkbut:hover {
+    background-color: dodgerblue;
+    transition: 0.7s;
+    border-color: white;
 }
 
 #telegram:hover {
