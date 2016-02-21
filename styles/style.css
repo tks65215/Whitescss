@@ -113,7 +113,8 @@ button {
 }
 
 .dropdown-content {
-    position: static;
+    padding: auto;
+    position: fixed;
     display: block;
     padding-left: auto;
     padding-right: auto;
@@ -194,6 +195,7 @@ a {
     background-color: dodgerblue;
     transition: 0.7s;
     border-color: white;
+    text-align: left;
 }
 
 .dropdown:hover  .dropdown-content {
@@ -212,7 +214,9 @@ a {
     -o-filter: blur(1px)
     -ms-filter: blur(1px);
     filter: blur(1px);
-    z-index:-1;
+    z-index: -1;
+    margin: auto;
+    font-size: 20pt;
 }
 
 #linkmenu:hover {
@@ -241,4 +245,9 @@ a {
     background-color: cornflowerblue;
     transition: 0.7s;
     border-radius: 5px;
+}
+
+#donat {
+    margin-left: 15px;
+    margin-right: 15px;
 }
