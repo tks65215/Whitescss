@@ -84,8 +84,16 @@ img {
     align-content: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 15px;
+    border-radius: 0px;
+    padding: auto;
 }
+
+#headimage:hover {
+    border: 5;
+    transition: 1s;
+    border-style: double;
+}
+
 .menu {
     color: aliceblue;
     font-size: 15pt;
@@ -118,6 +126,7 @@ button {
 }
 
 .dropdown-content {
+    transition: 0.5s;
     padding-top: 10px;
     padding-bottom: 40px;
     padding-left: 10px;
@@ -131,6 +140,7 @@ button {
 }
 
 .dropdown-content button {
+    transition: 0.5s;
     text-align: left;
     background: #222;
     opacity: 0.7;
