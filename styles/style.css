@@ -10,7 +10,7 @@
 }
 .ul {
     position: fixed;
-    text-align: center;
+    text-align: right;
     font-size: 10pt;
     color: red;
     margin-bottom: 25px;
@@ -100,6 +100,36 @@ button {
     text-align: center;
     color: white;
 }   
+
+.dropdown {
+    margin-top: 50px;
+    margin-right: 1000px;
+    color: white;
+    font-family: CODE;
+    position: fixed;
+    margin-left: 12px;
+    display: inline-block;
+    text-align: left;
+}
+
+.dropdown-content {
+    position: static;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: right;
+    display: none;
+    transition: 0.7;
+}
+
+.dropdown-content button {
+    color: white;
+    font-size: 15pt;
+}
+.dropdown-content button:hover {
+    opacity: 1;
+}
+
 body {
     -webkit-transition: 1s;
     background-color: dimgray;
@@ -125,9 +155,7 @@ body {
 
 
 a {
-    border-style: double;
-    border-color: dimgrey;
-    background-color: darkslategrey;
+    background: transparent;
 }
 
 
@@ -163,7 +191,7 @@ a {
 #ul:hover {
     opacity: 0.99;
     transition: 0.4s;
-    text-align: center;
+    text-align: right;
 }
 
 
@@ -177,6 +205,25 @@ a {
     background-color: dodgerblue;
     transition: 0.7s;
     border-color: white;
+}
+
+.dropdown:hover  .dropdown-content {
+    opacity: 1;
+    border-radius: 3px;
+    text-align: left;
+    transition: 0.9s;
+    display: block;
+    background-color: dimgray;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#linkmenu:hover {
+    text-align: center;
+    transition: 0.9s;
+    background-color: grey;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
 #telegram:hover {
