@@ -192,7 +192,14 @@ a {
 	background-color: dimgrey;
 	transition: 0.7s;
 }
+
 #youtube:hover {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px)
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    z-index:-1;
 	background-color: red;
     transition: 0.7s;
     border-radius: 5px;
@@ -203,15 +210,19 @@ a {
     transition: 0.7s;
 }
 
-
 #ul:hover {
     opacity: 0.99;
     transition: 0.4s;
     text-align: left;
 }
 
-
 #vk:hover {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px)
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    z-index:-1;
     background-color: dodgerblue;
     transition: 0.7s;
     border-radius: 5px;
@@ -257,6 +268,26 @@ a {
     background-color: grey;
 }
 
+#notblurried {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px)
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    z-index:-1;
+    }
+
+#notblurried:hover {
+    transition: 0.67s;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px)
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    z-index: -1;
+    
+}
+
 #blur:hover {
     transition: 0.9s;
     -webkit-filter: blur(2px);
@@ -268,6 +299,12 @@ a {
     }
 
 #telegram:hover {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px)
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    z-index:-1;
     background-color: cornflowerblue;
     transition: 0.7s;
     border-radius: 5px;
