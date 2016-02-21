@@ -171,19 +171,6 @@ a {
     border-radius: 5px;
 }
 
-#head {
-	background: Transparent;
-	border-color: white;
-    border-radius: 0px;
-    border-style: ridge;
-}
-
-#head:hover {
-	background-color: dimgrey;
-	transition: 0.7s;
-    border-radius: 0px;
-}
-
 #something:hover {
     background-color: dimgray;
     transition: 0.7s;
