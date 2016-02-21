@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Fjalla;
+    src: url(fonts/Fjalla.ttf);
+    font-family: Karmina;
+    src: url(fonts/Karmina.ttf);
+    font-family: ER;
+    src: url(fonts/ER.ttf);
+    font-family: CODE;
+    src: url(fonts/CODE.otf);
+}
+.ul {
+    text-align: left;
+    font-size: 10pt;
+    color: red;
+    background: transparent;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+.head {
+    border-radius: 0px;
+    text-align: center;
+    margin-left: 230px;
+    margin-right: 230px;
+    text-shadow: 2px 1px 6px rgba(0, 0, 0, 1);
+    background-repeat:round;
+    color: white;
+    font-size: 45pt;
+    font-family: CODE;
+    border-color: whitesmoke;
+    margin-bottom: 15px;
+    height: auto;
+    padding: auto;
+}
+.center-text {
+    margin-top: 19px;
+    text-align: center;
+}
+p {
+    font-family: Fjalla;
+    padding: 15px;
+    text-align: left;
+    border-color: whitesmoke;
+    border-style: double;
+    border-radius: 0px;
+}
+.images {
+    text-align: center;
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+input {
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 17pt;
+    outline-color: aliceblue;
+    height: 50px;
+    width: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 90px;
+    border-style: ridge;
+    border-color: whitesmoke;
+    background: Transparent;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+img {
+    align-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+.menu {
+    color: aliceblue;
+    font-size: 15pt;
+    font-family:fantasy;
+}
+button {
+    background: Transparent;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    border-radius: 00px;
+    border-style: ridge;
+    border-color: grey;
+    text-align: center;
+    color: white;
+}   
+body {
+    background-color: dimgray;
+    font-family: Fjalla;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-attachment:fixed;
+    background-repeat:round;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+    color: lightcyan;
+    background-image: url("images/fon.jpg");
+    position: relative;
+    text-align: center;  
+    text-decoration-color: aliceblue;
+    font-size: 25pt;
+}
+#button {
+	background: Transparent;
+	border-color: white;
+    border-radius: 0px;
+    border-style: ridge;
+}
+
+
+a {
+    border-style: double;
+    border-color: dimgrey;
+    background-color: darkslategrey;
+}
+
+
+#button:hover {
+	background-color: dimgrey;
+	transition: 0.7s;
+}
+#youtube:hover {
+	background-color: red;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+#head {
+	background: Transparent;
+	border-color: white;
+    border-radius: 0px;
+    border-style: ridge;
+}
+
+#head:hover {
+	background-color: dimgrey;
+	transition: 0.7s;
+    border-radius: 0px;
+}
+
+#something:hover {
+    background-color: dimgray;
+    transition: 0.7s;
+}
+
+
+#ul:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+
+#vk:hover {
+    background-color: dodgerblue;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+#telegram:hover {
+    background-color: cornflowerblue;
+    transition: 0.7s;
+    border-radius: 5px;
+}
