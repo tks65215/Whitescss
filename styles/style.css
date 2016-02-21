@@ -95,6 +95,7 @@ button {
     color: white;
 }   
 body {
+    -webkit-transition: 1s;
     background-color: dimgray;
     font-family: Fjalla;
     margin-left: 150px;
