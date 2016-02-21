@@ -117,12 +117,14 @@ button {
     display: block;
     padding-left: auto;
     padding-right: auto;
-    text-align: right;
+    text-align: left;
     display: none;
     transition: 0.7;
 }
 
 .dropdown-content button {
+    text-align: left;
+    background: transparent;
     color: white;
     font-size: 15pt;
 }
@@ -191,7 +193,7 @@ a {
 #ul:hover {
     opacity: 0.99;
     transition: 0.4s;
-    text-align: right;
+    text-align: left;
 }
 
 
@@ -213,18 +215,40 @@ a {
     text-align: left;
     transition: 0.9s;
     display: block;
-    background-color: dimgray;
-    margin-left: 35px;
-    margin-right: 35px;
+    background: transparent;
+}
+
+#linkmenu {
+    text-align: left;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px)
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    z-index:-1;
 }
 
 #linkmenu:hover {
-    text-align: center;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px)
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    z-index:-1;
+    text-align: left;
     transition: 0.9s;
     background-color: grey;
-    padding-bottom: 12px;
-    padding-top: 12px;
 }
+
+#blur:hover {
+    transition: 0.9s;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px)
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    z-index:-1;
+    }
 
 #telegram:hover {
     background-color: cornflowerblue;
