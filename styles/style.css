@@ -9,13 +9,18 @@
     src: url(fonts/CODE.otf);
 }
 .ul {
-    text-align: left;
+    position: fixed;
+    text-align: center;
     font-size: 10pt;
     color: red;
-    background: transparent;
     margin-bottom: 25px;
-    margin-top: 10px;
-    opacity: 0.5;
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: 0.3;
+    background-color: gray;
+    border-radius: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 .head {
     border-radius: 0px;
@@ -155,7 +160,7 @@ a {
 
 
 #ul:hover {
-    opacity: 1;
+    opacity: 0.99;
     transition: 0.4s;
 }
 
