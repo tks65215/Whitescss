@@ -150,6 +150,9 @@ button {
     transition: 0.7;
 }
 
+.izyuminka {
+    text-align: right;
+}
 .dropdown-content button {
     transition: 0.5s;
     text-align: left;
@@ -161,6 +164,7 @@ button {
 
 body {
     -webkit-transition: 1s;
+    transition: 1s;
     background-color: dimgray;
     font-family: Fjalla;
     margin-left: 150px;
@@ -191,6 +195,17 @@ a {
 #button:hover {
 	background-color: dimgrey;
 	transition: 0.7s;
+}
+
+#izyuminka:hover {
+    transition: 0.7s;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px)
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    z-index:-1;
+    
 }
 
 #youtube:hover {
@@ -288,7 +303,13 @@ a {
     
 }
 
+#blur {
+    border-style: none;
+    font-size: 30pt;
+}
+
 #blur:hover {
+    border-style: none;
     transition: 0.9s;
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
