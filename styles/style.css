@@ -238,11 +238,7 @@ a {
 }
 
 #something {
-    width: 70%;
-    padding-bottom: 1px;
-    padding-top: 1px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    text-align: center;
 }
 
 #something:hover {
