@@ -8,14 +8,13 @@
     font-family: CODE;
     src: url(fonts/CODE.otf);
 }
-.ul {
+.links {
     position: fixed;
     text-align: right;
     font-size: 10pt;
     color: red;
     margin-bottom: 25px;
     margin-top: 5px;
-    margin-left: 10px;
     opacity: 0.3;
     background-color: #333333;
     border-radius: 3px;
@@ -91,6 +90,7 @@ img {
 }
 
 #headimage {
+    width: 90%;
     border-style: solid;
     border-color: white;
     margin-bottom: 15px;
@@ -127,11 +127,8 @@ button {
     border-color: #333;
     border-style: double;
     border-radius: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
     font-size: 40pt;
     margin-top: 70px;
-    margin-left: 10px;
     color: white;
     font-family: CODE;
     position: fixed;
@@ -139,6 +136,7 @@ button {
 }
 
 .dropdown-content {
+    padding-top: 20px;
     width: 200px;
     float: left;
     position: fixed;

@@ -2,7 +2,7 @@
     <title>Изюминка</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" href="styles/style.css">
-    <div class="ul" id="ul" style="text-align: right">
+    <div class="links" id="ul" style="text-align: right">
     <img src="styles/images/vk.png" style="radius: 15px" onclick="window.location.href='http://vk.com'" id="vk">
     <img src="styles/images/youtube.png" onclick="window.location.href='http://youtube.com'" id="youtube">
     <img src="styles/images/telegram.png" onclick="window.location.href='http://telegram.org'" id="telegram">
@@ -10,10 +10,10 @@
      <div class="dropdown">
       <button id="blur">≡</button>
         <div class="dropdown-content">
-        <button onclick="window.location.href='index.html'" id="linkmenu">Главная</button>
-        <button onclick="window.location.href='karinapic.html'" id="linkmenu">Пикчи с Кариной</button>
-        <button onclick="window.location.href='pryadko.html'" id="linkmenu">Пикчи с Лехой Прядко</button>
-        <button onclick="window.location.href='gdeleha.html'" id="linkmenu">ГДЕ ЛЕХА?!</button>
+        <button onclick="window.location.href='index.html'" id="linkm">Главная</button>
+        <button onclick="window.location.href='karinapic.html'" id="linkm">Пикчи с Кариной</button>
+        <button onclick="window.location.href='pryadko.html'" id="linkm">Пикчи с Лехой Прядко</button>
+        <button onclick="window.location.href='gdeleha.html'" id="linkm">ГДЕ ЛЕХА?!</button>
         </div>
         </div>
     <div class="head" id="head">
@@ -24,11 +24,21 @@
     <div class="menu">
  
     <body>
-        <hr/>
-        <hr/>
-        <p id="something">В дизайне каждого сайта должна быть "изюминка"...
-            ©Артемий Лебедев (горе-дизайнер)
-        </p> 
+      <hr/>
+        <div class="content">
+            <div class="leftside">
+                <p id="something">В дизайне каждого сайта должна быть "изюминка"...
+                ©Артемий Лебедев (горе-дизайнер)
+            </div>
+            <div class="rightside">
+                <div class="othmenu">
+                    <button onclick="window.location.href='index.html'" id="linkmenu">Главная</button>
+                    <button onclick="window.location.href='karinapic.html'" id="linkmenu">Пикчи с Кариной</button>
+                    <button onclick="window.location.href='pryadko.html'" id="linkmenu">Пикчи с Лехой Прядко</button>
+                    <button onclick="window.location.href='gdeleha.html'" id="linkmenu">ГДЕ ЛЕХА?!</button>
+            </div>
+            </div>
+        </div>
     </body>
         <footer>
             <hr/>
