@@ -172,6 +172,11 @@ button {
     float: right;
 }
 
+hr {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
 body {
     width: 1000px;
     height: 100%
@@ -288,11 +293,12 @@ a {
     -ms-filter: blur(1px);
     filter: blur(1px);
     z-index: -1;
-    margin: auto;
     font-size: 20pt;
 }
 
 #linkm {
+    margin-top: 3px;
+    margin-bottom: 3px;
     width: 100%;
     text-align: left;
     -webkit-filter: blur(1px);
@@ -301,8 +307,8 @@ a {
     -ms-filter: blur(1px);
     filter: blur(1px);
     z-index: -1;
-    margin: auto;
     font-size: 20pt;
+    border-style: none;
 }
 
 #linkmenu:hover {
