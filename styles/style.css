@@ -319,6 +319,16 @@ a {
     z-index:-1;
     }
 
+#har:hover {
+    transition: 0.9s;
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px)
+    -ms-filter: blur(50px);
+    filter: blur(50px);
+    z-index:-1;
+}
+
 #telegram:hover {
     -webkit-filter: blur(0px);
     -moz-filter: blur(0px);
