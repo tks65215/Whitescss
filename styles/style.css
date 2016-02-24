@@ -38,6 +38,8 @@
 }
 footer {
     text-align: left;
+    width: 100%;
+    float: left;
 }
 .center-text {
     margin-top: 19px;
@@ -137,32 +139,44 @@ button {
 }
 
 .dropdown-content {
-    transition: 0.5s;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    padding-left: 10px;
-    margin-right: 100px;
+    width: 200px;
+    float: left;
     position: fixed;
     display: block;
-    padding-right: 40px;
     text-align: left;
     display: none;
-    transition: 0.7;
 }
 
 .izyuminka {
     text-align: right;
+    float: left;
 }
 .dropdown-content button {
     transition: 0.5s;
     text-align: left;
     background: #222;
-    opacity: 0.7;
+    opacity: 0.9;
     color: white;
     font-size: 35pt;
 }
 
+.dropdown-content button:hover {
+    opacity: 1;
+}
+.leftside {
+    width: 740px;
+    padding-right: 5px;
+    float: left;
+}
+
+.rightside {
+    width: 200px;
+    float: right;
+}
+
 body {
+    width: 1000px;
+    height: 100%
     -webkit-transition: 1s;
     transition: 1s;
     background-color: dimgray;
@@ -175,7 +189,7 @@ body {
     color: lightcyan;
     background-image: url("images/fon.jpg");
     position: relative;
-    text-align: center;  
+    text-align: left;  
     text-decoration-color: aliceblue;
     font-size: 25pt;
 }
@@ -220,6 +234,14 @@ a {
     border-radius: 5px;
 }
 
+#something {
+    width: 100%;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 #something:hover {
     background-color: dimgray;
     transition: 0.7s;
@@ -260,6 +282,20 @@ a {
 }
 
 #linkmenu {
+    width: 100%;
+    text-align: center;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px)
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    z-index: -1;
+    margin: auto;
+    font-size: 20pt;
+}
+
+#linkm {
+    width: 100%;
     text-align: left;
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
@@ -278,7 +314,17 @@ a {
     -ms-filter: blur(0px);
     filter: blur(0px);
     z-index:-1;
-    text-align: left;
+    transition: 0.9s;
+    background-color: grey;
+}
+
+#linkm:hover {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px)
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    z-index:-1;
     transition: 0.9s;
     background-color: grey;
 }
