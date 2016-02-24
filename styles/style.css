@@ -162,13 +162,13 @@ button {
     opacity: 1;
 }
 .leftside {
-    width: 740px;
+    width: 79%;
     padding-right: 5px;
     float: left;
 }
 
 .rightside {
-    width: 200px;
+    width: 20%;
     float: right;
 }
 
