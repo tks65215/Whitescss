@@ -137,7 +137,7 @@ button {
 
 .dropdown-content {
     padding-top: 5px;
-    width: 200px;
+    width: 300px;
     float: left;
     position: fixed;
     display: block;
@@ -150,12 +150,12 @@ button {
     float: left;
 }
 .dropdown-content button {
-    transition: 0.5s;
-    text-align: left;
-    background: #222;
+    transition: 0.3s;
+    text-align: center;
+    background: #333;
     opacity: 0.9;
     color: white;
-    font-size: 35pt;
+    font-size: 18pt;
 }
 
 .dropdown-content button:hover {
@@ -178,7 +178,7 @@ hr {
 }
 
 body {
-    width: 1000px;
+    width: 74%;
     height: 100%
     -webkit-transition: 1s;
     transition: 1s;
@@ -297,17 +297,18 @@ a {
 }
 
 #linkm {
-    margin-top: 3px;
-    margin-bottom: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
     -o-filter: blur(1px)
     -ms-filter: blur(1px);
     filter: blur(1px);
     z-index: -1;
-    font-size: 20pt;
     border-style: none;
 }
 
