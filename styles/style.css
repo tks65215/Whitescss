@@ -168,6 +168,8 @@ button {
 }
 
 .rightside {
+    border-left-style: double;
+    border-spacing: 25px;
     width: 20%;
     float: right;
 }
@@ -175,6 +177,10 @@ button {
 hr {
     margin-top: 3px;
     margin-bottom: 3px;
+}
+
+.othmenu hr {
+    opacity: 0.1;
 }
 
 body {
@@ -289,7 +295,7 @@ a {
     -ms-filter: blur(1px);
     filter: blur(1px);
     z-index: -1;
-    font-size: 20pt;
+    font-size: 17pt;
 }
 
 #linkm {
