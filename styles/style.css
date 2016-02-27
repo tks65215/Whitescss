@@ -209,6 +209,14 @@ body {
     border-style: ridge;
 }
 
+#some {
+    text-align: center;
+}
+
+#some:hover {
+    background-color: dimgray;
+    transition: 0.7s;  
+}
 
 a {
     background: transparent;
@@ -245,6 +253,8 @@ a {
 
 #something {
     text-align: center;
+    width: 500px;
+    height: auto;
 }
 
 #something:hover {
