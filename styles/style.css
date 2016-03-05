@@ -78,8 +78,8 @@ input {
     border-style: ridge;
     border-color: whitesmoke;
     background: Transparent;
-    -webkit-transition: 1s;
-    transition: 1s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
 }
 img {
     align-content: center;
@@ -94,11 +94,12 @@ img {
     border-style: solid;
     border-color: white;
     margin-bottom: 15px;
+    transition: 0.3s;
 }
 
 #headimage:hover {
     opacity: 0.3;
-    transition: 1s;
+    transition: 0.3s;
     -webkit-filter: blur(15px);
     -moz-filter: blur(15px);
     -o-filter: blur(15px)
@@ -143,11 +144,13 @@ button {
     display: block;
     text-align: left;
     display: none;
+    transition: 0.3s;
 }
 
 .izyuminka {
     text-align: right;
     float: left;
+    transition: 0.3s;
 }
 .dropdown-content button {
     transition: 0.3s;
@@ -161,6 +164,7 @@ button {
 .dropdown-content button:hover {
     opacity: 1;
 }
+
 .leftside {
     width: 79%;
     padding-right: 5px;
@@ -168,8 +172,6 @@ button {
 }
 
 .rightside {
-    border-left-style: double;
-    border-spacing: 25px;
     width: 20%;
     float: right;
 }
@@ -207,15 +209,17 @@ body {
 	border-color: white;
     border-radius: 0px;
     border-style: ridge;
+    transition: 0.3s;
 }
 
 #some {
     text-align: center;
+    transition: 0.3s;
 }
 
 #some:hover {
     background-color: dimgray;
-    transition: 0.7s;  
+    transition: 0.3s;  
 }
 
 a {
@@ -225,11 +229,11 @@ a {
 
 #button:hover {
 	background-color: dimgrey;
-	transition: 0.7s;
+	transition: 0.3s;
 }
 
 #izyuminka:hover {
-    transition: 0.7s;
+    transition: 0.3s;
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px)
@@ -247,19 +251,32 @@ a {
     filter: blur(0px);
     z-index:-1;
 	background-color: red;
-    transition: 0.7s;
+    transition: 0.3s;
     border-radius: 5px;
 }
 
 #something {
     text-align: center;
-    width: 500px;
+    width: auto;
     height: auto;
+    transition: 0.3s;
 }
 
 #something:hover {
     background-color: dimgray;
-    transition: 0.7s;
+    transition: 0.3s;
+}
+
+#shevcov {
+    width: 500px;
+    height: auto;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#shevcov:hover {
+    transition: 0.3s;
+    opacity: 0.5;
 }
 
 #ul:hover {
@@ -309,6 +326,7 @@ a {
 }
 
 #linkm {
+    color: white;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: 0px;
@@ -336,6 +354,7 @@ a {
 }
 
 #linkm:hover {
+    color: white;
     -webkit-filter: blur(0px);
     -moz-filter: blur(0px);
     -o-filter: blur(0px)
